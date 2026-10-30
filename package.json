@@ -1,0 +1,17 @@
+{
+  "name": "url-gif-mp4-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "URL media downloader that saves files as MP4 or GIF",
+  "main": "download.js",
+  "scripts": {
+    "download": "node download.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "youtube-dl-exec": "^3.1.15"
+  }
+}

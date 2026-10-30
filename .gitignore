@@ -1,0 +1,7 @@
+node_modules/
+.tmp/
+GIF/*
+!GIF/.gitkeep
+MP4/*
+!MP4/.gitkeep
+npm-debug.log*
